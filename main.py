@@ -14,6 +14,7 @@ def data (file) :
     print("\n")
     print("LIST DATA DARI PEMBACAAN FILE")
     print(list_data)
+    return list_data
     
 
 #bagian a
@@ -99,6 +100,7 @@ def pengisian(data_file) :
     print(dict_book4)
     print(dict_book5)
     print("\n")
+    
 
     #output dalam bentuk list
     print("LIST DAFTAR BUKU :")
@@ -106,6 +108,7 @@ def pengisian(data_file) :
     daftar_buku =[dict_book1, dict_book2, dict_book3, dict_book4, dict_book5] # dari ke lima dictionary di atas di buat list
     print(daftar_buku)
     print("\n")
+    return daftar_buku
     
 #bagian b
 # Buatlah fungsi terbanyak untuk mengembalikkan (return) ISBN buku dengan total peminjaman terbanyak dan setiap minggunya.
