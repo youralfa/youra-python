@@ -146,16 +146,13 @@ def report (data_a) :
 #Buatlah main program yang digunakan untuk menampilkan dictionary dan memanggil fungsi yang dibuat
 #main progaram
 nama_file = "data.txt"
-data(nama_file) 
+listdata = data(nama_file) 
 #data ini di input berdasarkan hasil dari list_data
-a = [['978-1523502776', '10', '4', '0', '0', '3', '2', '0'], ['978-1951204006', '3', '2', '0', '0', '1', '0', '0'], ['978-1119724414', '5', '3', '0', '1', '0', '0', '0'], ['978-0997316025', '6', '0', '0', '0', '1', '1', '1'], ['978-1734554908', '12', '2', '0', '4', '0', '0', '1']]
-pengisian(a)
+a = pengisian(listdata)
 #data ini di input berdasarkan hasil dari daftar_buku
-b = [{'ISBN': '978-1523502776', 'STOK': '10', 'PEMINJAM': 9}, {'ISBN': '978-1951204006', 'STOK': '3', 'PEMINJAM': 3}, {'ISBN': '978-1119724414', 'STOK': '5', 'PEMINJAM': 4}, {'ISBN': '978-0997316025', 'STOK': '6', 'PEMINJAM': 3}, {'ISBN': '978-1734554908', 'STOK': '12', 'PEMINJAM': 7}]
-terbanyak(b)
+terbanyak(a)
 #data ini di input berdasarkan hasil dari daftar_buku
-c = [{'ISBN': '978-1523502776', 'STOK': '10', 'PEMINJAM': 9}, {'ISBN': '978-1951204006', 'STOK': '3', 'PEMINJAM': 3}, {'ISBN': '978-1119724414', 'STOK': '5', 'PEMINJAM': 4}, {'ISBN': '978-0997316025', 'STOK': '6', 'PEMINJAM': 3}, {'ISBN': '978-1734554908', 'STOK': '12', 'PEMINJAM': 7}]
-report(c)
+report(a)
 
 
 
